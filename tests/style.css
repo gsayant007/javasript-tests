@@ -1,0 +1,90 @@
+.main{
+    background-color: darkcyan;
+}
+
+.header1{
+    font-family: cursive;
+    font-style: italic;
+    color: blue;
+    text-align: center;
+}
+.header2{
+    font-family: cursive;
+    font-style: italic;
+    color:darkgoldenrod;
+    text-align: center;
+}
+
+/* .home{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+
+.about{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+.contact{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+} */
+
+.button_container{
+    text-align: center;  
+    width: 300px;  
+    height: 200px;  
+    /* padding-top: 100px;  */
+    padding-left: 500px;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}
+
+.openbtn{
+    background-color: burlywood;
+    text-align: center;
+}
+.openbtn:hover{
+    background-color: green;
+}
+
+
+.image_container{
+    padding-left: 500px;
+}
+
+.sidenav{
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x:hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+.sidenav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover{
+    color: green;
+}
+
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
