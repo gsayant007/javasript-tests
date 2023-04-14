@@ -13,3 +13,17 @@ const closeSideBar = () => {
     document.getElementById("main").style.width = "0";
 
 }
+
+var counter = document.getElementById("counter-display"); 
+
+// var count = 0;
+// const increament = ()=>{
+//     count += 1;
+//     document.getElementById("counter-display").innerText = count;
+// }
+
+var count = 0;
+document.addEventListener(increament = () =>{
+        count += 1;
+        document.getElementById("counter-display").innerText = count;
+});
