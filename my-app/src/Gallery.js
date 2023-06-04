@@ -12,7 +12,8 @@ function Profile1(){
 
 function Profile2(){
     return(
-        <img src="https://i.imgur.com/MK3eW3As.jpg"
+        <img 
+        src="https://i.imgur.com/MK3eW3As.jpg"
         alt="Katherine Johnson"
         ></img>
     );
